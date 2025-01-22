@@ -21,8 +21,13 @@ func GetPlayerById(playerId string) (models.Player, error) {
 	return player, err
 }
 
-func CreatePlayer() {
+func CreatePlayer(player models.Player) error {
+	db := config.ConnectDatabase()
+	if err := db.Create(&player).Error; err != nil {
+		return err
+	}
 
+	return nil
 }
 
 func UpdatePlayerById() {
