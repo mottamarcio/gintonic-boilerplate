@@ -13,8 +13,12 @@ func GetPlayers() ([]models.Player, error) {
 	return players, err
 }
 
-func GetPlayerById() {
+func GetPlayerById(playerId string) (models.Player, error) {
+	db := config.ConnectDatabase()
+	var player models.Player
+	err := db.First(&player, playerId).Error
 
+	return player, err
 }
 
 func CreatePlayer() {

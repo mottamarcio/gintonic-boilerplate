@@ -21,8 +21,13 @@ func GetPlayers() (int, []models.Player, error) {
 	return http.StatusOK, players, nil
 }
 
-func GetPlayerById() {
+func GetPlayerById(playerId string) (int, models.Player, error) {
+	player, err := repositories.GetPlayerById(playerId)
+	if err != nil {
+		return http.StatusNotFound, models.Player{}, fmt.Errorf("Player not found.")
+	}
 
+	return http.StatusOK, player, nil
 }
 
 func CreatePlayer() {

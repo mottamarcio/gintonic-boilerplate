@@ -23,6 +23,13 @@ func GetPlayers(c *gin.Context) {
 }
 
 func GetPlayerById(c *gin.Context) {
+	playerId := c.Param("id")
+	statusCode, httpResponse, err := service.GetPlayerById(playerId)
+	if err != nil {
+		c.JSON(statusCode, gin.H{"error": err.Error()})
+		return
+	}
+	c.JSON(statusCode, httpResponse)
 
 }
 
