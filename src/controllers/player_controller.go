@@ -14,12 +14,12 @@ func GetServerStatus(c *gin.Context) {
 }
 
 func GetPlayers(c *gin.Context) {
-	httpResponse, err := service.GetPlayers()
+	statusCode, httpResponse, err := service.GetPlayers()
 	if err != nil {
-		c.JSON(http.StatusNoContent, gin.H{"error": err.Error()})
+		c.JSON(statusCode, gin.H{"error": err.Error()})
 		return
 	}
-	c.JSON(http.StatusOK, httpResponse)
+	c.JSON(statusCode, httpResponse)
 }
 
 func GetPlayerById(c *gin.Context) {
