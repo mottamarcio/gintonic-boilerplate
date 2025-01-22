@@ -38,6 +38,12 @@ func UpdatePlayerById() {
 
 }
 
-func DeletePlayerById() {
+func DeletePlayerById(playerId string) (int, error) {
+	err := repositories.DeletePlayerById(playerId)
+	if err != nil {
+		return http.StatusNotFound, fmt.Errorf("Player not found.")
+	}
+
+	return http.StatusOK, nil
 
 }

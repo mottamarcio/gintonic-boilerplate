@@ -42,5 +42,12 @@ func UpdatePlayerById(c *gin.Context) {
 }
 
 func DeletePlayerById(c *gin.Context) {
+	playerId := c.Param("id")
+	statusCode, err := service.DeletePlayerById(playerId)
+	if err != nil {
+		c.JSON(statusCode, gin.H{"error": err.Error()})
+		return
+	}
 
+	c.JSON(statusCode, gin.H{"message": "Player removed successfully."})
 }

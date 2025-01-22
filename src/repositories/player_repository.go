@@ -29,6 +29,18 @@ func UpdatePlayerById() {
 
 }
 
-func DeletePlayerById() {
+func DeletePlayerById(playerId string) error {
+	db := config.ConnectDatabase()
+	var player models.Player
+	// Find for player by ID
+	if err := db.First(&player, playerId).Error; err != nil {
+		return err
+	}
 
+	// Delete player
+	if err := db.Delete(&player).Error; err != nil {
+		return err
+	}
+
+	return nil
 }
