@@ -3,10 +3,12 @@ package repositories
 import (
 	"github.com/mottamarcio/gintonic-boilerplate/src/config"
 	"github.com/mottamarcio/gintonic-boilerplate/src/models"
+	"gorm.io/gorm"
 )
 
+var db *gorm.DB = config.ConnectDatabase()
+
 func GetPlayers() ([]models.Player, error) {
-	db := config.ConnectDatabase()
 	var players []models.Player
 	err := db.Find(&players).Error
 
@@ -14,7 +16,6 @@ func GetPlayers() ([]models.Player, error) {
 }
 
 func GetPlayerById(playerId string) (models.Player, error) {
-	db := config.ConnectDatabase()
 	var player models.Player
 	err := db.First(&player, playerId).Error
 
@@ -22,7 +23,6 @@ func GetPlayerById(playerId string) (models.Player, error) {
 }
 
 func CreatePlayer(player models.Player) error {
-	db := config.ConnectDatabase()
 	if err := db.Create(&player).Error; err != nil {
 		return err
 	}
@@ -31,10 +31,8 @@ func CreatePlayer(player models.Player) error {
 }
 
 func UpdatePlayerById(playerId string, updatedPlayer models.Player) error {
-	db := config.ConnectDatabase()
-	var player models.Player
-	// Find for player by ID
-	if err := db.First(&player, playerId).Error; err != nil {
+	player, err := GetPlayerById(playerId)
+	if err != nil {
 		return err
 	}
 
@@ -52,10 +50,8 @@ func UpdatePlayerById(playerId string, updatedPlayer models.Player) error {
 }
 
 func DeletePlayerById(playerId string) error {
-	db := config.ConnectDatabase()
-	var player models.Player
-	// Find for player by ID
-	if err := db.First(&player, playerId).Error; err != nil {
+	player, err := GetPlayerById(playerId)
+	if err != nil {
 		return err
 	}
 
