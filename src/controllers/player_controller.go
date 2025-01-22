@@ -48,7 +48,20 @@ func CreatePlayer(c *gin.Context) {
 }
 
 func UpdatePlayerById(c *gin.Context) {
+	playerId := c.Param("id")
+	var updatedPlayer models.Player
+	if err := c.ShouldBindJSON(&updatedPlayer); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+		return
+	}
 
+	statusCode, err := services.UpdatePlayerById(playerId, updatedPlayer)
+	if err != nil {
+		c.JSON(statusCode, gin.H{"error": err.Error()})
+		return
+	}
+
+	c.JSON(statusCode, gin.H{"message": "Player updated successfully."})
 }
 
 func DeletePlayerById(c *gin.Context) {

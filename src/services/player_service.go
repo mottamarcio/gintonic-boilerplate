@@ -39,8 +39,13 @@ func CreatePlayer(player models.Player) (int, error) {
 	return http.StatusOK, nil
 }
 
-func UpdatePlayerById() {
+func UpdatePlayerById(playerId string, updatedPlayer models.Player) (int, error) {
+	err := repositories.UpdatePlayerById(playerId, updatedPlayer)
+	if err != nil {
+		return http.StatusNotFound, err
+	}
 
+	return http.StatusOK, nil
 }
 
 func DeletePlayerById(playerId string) (int, error) {

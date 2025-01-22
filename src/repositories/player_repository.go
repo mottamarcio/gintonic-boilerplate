@@ -30,8 +30,25 @@ func CreatePlayer(player models.Player) error {
 	return nil
 }
 
-func UpdatePlayerById() {
+func UpdatePlayerById(playerId string, updatedPlayer models.Player) error {
+	db := config.ConnectDatabase()
+	var player models.Player
+	// Find for player by ID
+	if err := db.First(&player, playerId).Error; err != nil {
+		return err
+	}
 
+	// Updates player fields with the provided data
+	player.Name = updatedPlayer.Name
+	player.Age = updatedPlayer.Age
+	player.Nationality = updatedPlayer.Nationality
+
+	// Update player
+	if err := db.Save(&player).Error; err != nil {
+		return err
+	}
+
+	return nil
 }
 
 func DeletePlayerById(playerId string) error {
