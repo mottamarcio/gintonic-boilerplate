@@ -6,14 +6,15 @@ import (
 
 func GetPlayers() ([]models.Player, error) {
 	var players []models.Player
-	err := db.Find(&players).Error
+	// err := db.Find(&players).Error
+	err := db.Preload("Club").Find(&players).Error
 
 	return players, err
 }
 
 func GetPlayerById(playerId string) (models.Player, error) {
 	var player models.Player
-	err := db.First(&player, playerId).Error
+	err := db.Preload("Club").First(&player, playerId).Error
 
 	return player, err
 }

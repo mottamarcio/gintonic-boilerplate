@@ -7,4 +7,6 @@ type Player struct {
 	Name        string `json:"name" gorm:"type:varchar(100);not null"`
 	Age         int    `json:"age" gorm:"not null"`
 	Nationality string `json:"nationality" gorm:"type:varchar(100)"`
+	ClubID      uint   `json:"-"` /// Omitted from JSON
+	Club        Club   `json:"club" gorm:"foreignKey:ClubID;constraint:onUpdate:CASCADE,onDelete:SET NULL"`
 }

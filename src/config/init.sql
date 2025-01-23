@@ -82,407 +82,407 @@ INSERT INTO championships (name) VALUES
 ('UEFA Europa Conference League'); -- Europe
 
 -- Arsenal Players
-INSERT INTO players (name, age, nationality) VALUES
-('Bukayo Saka', 22, 'England'),
-('Martin Ødegaard', 25, 'Norway'),
-('Gabriel Jesus', 27, 'Brazil'),
-('William Saliba', 23, 'France');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Bukayo Saka', 22, 'England', 1),
+('Martin Ødegaard', 25, 'Norway', 1),
+('Gabriel Jesus', 27, 'Brazil', 1),
+('William Saliba', 23, 'France', 1);
 
 -- Aston Villa Players
-INSERT INTO players (name, age, nationality) VALUES
-('Ollie Watkins', 28, 'England'),
-('Emiliano Martínez', 32, 'Argentina'),
-('Leon Bailey', 26, 'Jamaica'),
-('Douglas Luiz', 26, 'Brazil');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Ollie Watkins', 28, 'England', 2),
+('Emiliano Martínez', 32, 'Argentina', 2),
+('Leon Bailey', 26, 'Jamaica', 2),
+('Douglas Luiz', 26, 'Brazil', 2);
 
 -- Bournemouth Players
-INSERT INTO players (name, age, nationality) VALUES
-('Dominic Solanke', 27, 'England'),
-('Philip Billing', 28, 'Denmark'),
-('Marcus Tavernier', 25, 'England'),
-('Lloyd Kelly', 26, 'England');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Dominic Solanke', 27, 'England', 3),
+('Philip Billing', 28, 'Denmark', 3),
+('Marcus Tavernier', 25, 'England', 3),
+('Lloyd Kelly', 26, 'England', 3);
 
 -- Brentford Players
-INSERT INTO players (name, age, nationality) VALUES
-('Ivan Toney', 28, 'England'),
-('Bryan Mbeumo', 25, 'Cameroon'),
-('Christian Nørgaard', 30, 'Denmark'),
-('Rico Henry', 26, 'England');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Ivan Toney', 28, 'England', 4),
+('Bryan Mbeumo', 25, 'Cameroon', 4),
+('Christian Nørgaard', 30, 'Denmark', 4),
+('Rico Henry', 26, 'England', 4);
 
 -- Brighton & Hove Albion Players
-INSERT INTO players (name, age, nationality) VALUES
-('Kaoru Mitoma', 27, 'Japan'),
-('Evan Ferguson', 19, 'Ireland'),
-('Lewis Dunk', 32, 'England'),
-('Pascal Groß', 33, 'Germany');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Kaoru Mitoma', 27, 'Japan', 5),
+('Evan Ferguson', 19, 'Ireland', 5),
+('Lewis Dunk', 32, 'England', 5),
+('Pascal Groß', 33, 'Germany', 5);
 
 -- Burnley Players
-INSERT INTO players (name, age, nationality) VALUES
-('Josh Brownhill', 28, 'England'),
-('Lyle Foster', 24, 'South Africa'),
-('Zeki Amdouni', 23, 'Switzerland'),
-('James Trafford', 22, 'England');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Josh Brownhill', 28, 'England', 6),
+('Lyle Foster', 24, 'South Africa', 6),
+('Zeki Amdouni', 23, 'Switzerland', 6),
+('James Trafford', 22, 'England', 6);
 
 -- Chelsea Players
-INSERT INTO players (name, age, nationality) VALUES
-('Enzo Fernández', 23, 'Argentina'),
-('Raheem Sterling', 29, 'England'),
-('Reece James', 24, 'England'),
-('Christopher Nkunku', 26, 'France');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Enzo Fernández', 23, 'Argentina', 7),
+('Raheem Sterling', 29, 'England', 7),
+('Reece James', 24, 'England', 7),
+('Christopher Nkunku', 26, 'France', 7);
 
 -- Crystal Palace Players
-INSERT INTO players (name, age, nationality) VALUES
-('Wilfried Zaha', 31, 'Ivory Coast'),
-('Eberechi Eze', 26, 'England'),
-('Marc Guéhi', 24, 'England'),
-('Cheick Doucouré', 24, 'Mali');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Wilfried Zaha', 31, 'Ivory Coast', 8),
+('Eberechi Eze', 26, 'England', 8),
+('Marc Guéhi', 24, 'England', 8),
+('Cheick Doucouré', 24, 'Mali', 8);
 
 -- Everton Players
-INSERT INTO players (name, age, nationality) VALUES
-('Dominic Calvert-Lewin', 27, 'England'),
-('Amadou Onana', 23, 'Belgium'),
-('James Tarkowski', 31, 'England'),
-('Dwight McNeil', 25, 'England');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Dominic Calvert-Lewin', 27, 'England', 9),
+('Amadou Onana', 23, 'Belgium', 9),
+('James Tarkowski', 31, 'England', 9),
+('Dwight McNeil', 25, 'England', 9);
 
 -- Fulham Players
-INSERT INTO players (name, age, nationality) VALUES
-('Aleksandar Mitrović', 30, 'Serbia'),
-('João Palhinha', 29, 'Portugal'),
-('Andreas Pereira', 28, 'Brazil'),
-('Tim Ream', 36, 'USA');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Aleksandar Mitrović', 30, 'Serbia', 10),
+('João Palhinha', 29, 'Portugal', 10),
+('Andreas Pereira', 28, 'Brazil', 10),
+('Tim Ream', 36, 'USA', 10);
 
 -- Liverpool Players
-INSERT INTO players (name, age, nationality) VALUES
-('Mohamed Salah', 32, 'Egypt'),
-('Trent Alexander-Arnold', 25, 'England'),
-('Darwin Núñez', 25, 'Uruguay'),
-('Virgil van Dijk', 33, 'Netherlands');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Mohamed Salah', 32, 'Egypt', 11),
+('Trent Alexander-Arnold', 25, 'England', 11),
+('Darwin Núñez', 25, 'Uruguay', 11),
+('Virgil van Dijk', 33, 'Netherlands', 11);
 
 -- Luton Town Players
-INSERT INTO players (name, age, nationality) VALUES
-('Tom Lockyer', 29, 'Wales'),
-('Carlton Morris', 28, 'England'),
-('Elijah Adebayo', 26, 'England'),
-('Marvelous Nakamba', 30, 'Zimbabwe');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Tom Lockyer', 29, 'Wales', 12),
+('Carlton Morris', 28, 'England', 12),
+('Elijah Adebayo', 26, 'England', 12),
+('Marvelous Nakamba', 30, 'Zimbabwe', 12);
 
 -- Manchester City Players
-INSERT INTO players (name, age, nationality) VALUES
-('Erling Haaland', 24, 'Norway'),
-('Kevin De Bruyne', 33, 'Belgium'),
-('Phil Foden', 24, 'England'),
-('Ruben Dias', 27, 'Portugal');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Erling Haaland', 24, 'Norway', 13),
+('Kevin De Bruyne', 33, 'Belgium', 13),
+('Phil Foden', 24, 'England', 13),
+('Ruben Dias', 27, 'Portugal', 13);
 
 -- Manchester United Players
-INSERT INTO players (name, age, nationality) VALUES
-('Marcus Rashford', 27, 'England'),
-('Bruno Fernandes', 29, 'Portugal'),
-('Casemiro', 32, 'Brazil'),
-('Raphaël Varane', 31, 'France');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Marcus Rashford', 27, 'England', 14),
+('Bruno Fernandes', 29, 'Portugal', 14),
+('Casemiro', 32, 'Brazil', 14),
+('Raphaël Varane', 31, 'France', 14);
 
 -- Newcastle United Players
-INSERT INTO players (name, age, nationality) VALUES
-('Alexander Isak', 25, 'Sweden'),
-('Bruno Guimarães', 26, 'Brazil'),
-('Kieran Trippier', 34, 'England'),
-('Nick Pope', 32, 'England');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Alexander Isak', 25, 'Sweden', 15),
+('Bruno Guimarães', 26, 'Brazil', 15),
+('Kieran Trippier', 34, 'England', 15),
+('Nick Pope', 32, 'England', 15);
 
 -- Nottingham Forest Players
-INSERT INTO players (name, age, nationality) VALUES
-('Morgan Gibbs-White', 24, 'England'),
-('Brennan Johnson', 23, 'Wales'),
-('Taiwo Awoniyi', 27, 'Nigeria'),
-('Steve Cook', 33, 'England');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Morgan Gibbs-White', 24, 'England', 16),
+('Brennan Johnson', 23, 'Wales', 16),
+('Taiwo Awoniyi', 27, 'Nigeria', 16),
+('Steve Cook', 33, 'England', 16);
 
 -- Sheffield United Players
-INSERT INTO players (name, age, nationality) VALUES
-('Oliver McBurnie', 28, 'Scotland'),
-('John Fleck', 33, 'Scotland'),
-('Sander Berge', 26, 'Norway'),
-('Anel Ahmedhodžić', 25, 'Bosnia');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Oliver McBurnie', 28, 'Scotland', 17),
+('John Fleck', 33, 'Scotland', 17),
+('Sander Berge', 26, 'Norway', 17),
+('Anel Ahmedhodžić', 25, 'Bosnia', 17);
 
 -- Tottenham Hotspur Players
-INSERT INTO players (name, age, nationality) VALUES
-('Harry Kane', 31, 'England'),
-('Son Heung-min', 32, 'South Korea'),
-('James Maddison', 27, 'England'),
-('Cristian Romero', 26, 'Argentina');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Harry Kane', 31, 'England', 18),
+('Son Heung-min', 32, 'South Korea', 18),
+('James Maddison', 27, 'England', 18),
+('Cristian Romero', 26, 'Argentina', 18);
 
 -- West Ham United Players
-INSERT INTO players (name, age, nationality) VALUES
-('Jarrod Bowen', 27, 'England'),
-('Lucas Paquetá', 26, 'Brazil'),
-('Declan Rice', 25, 'England'),
-('Kurt Zouma', 30, 'France');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Jarrod Bowen', 27, 'England', 19),
+('Lucas Paquetá', 26, 'Brazil', 19),
+('Declan Rice', 25, 'England', 19),
+('Kurt Zouma', 30, 'France', 19);
 
 -- Wolverhampton Wanderers Players
-INSERT INTO players (name, age, nationality) VALUES
-('Pedro Neto', 24, 'Portugal'),
-('Rúben Neves', 27, 'Portugal'),
-('Raúl Jiménez', 33, 'Mexico'),
-('Matheus Nunes', 26, 'Portugal');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Pedro Neto', 24, 'Portugal', 20),
+('Rúben Neves', 27, 'Portugal', 20),
+('Raúl Jiménez', 33, 'Mexico', 20),
+('Matheus Nunes', 26, 'Portugal', 20);
 
 -- Athletic Bilbao Players
-INSERT INTO players (name, age, nationality) VALUES
-('Iñaki Williams', 30, 'Spain'),
-('Nico Williams', 22, 'Spain'),
-('Iker Muniain', 31, 'Spain'),
-('Unai Simón', 27, 'Spain');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Iñaki Williams', 30, 'Spain', 21),
+('Nico Williams', 22, 'Spain', 21),
+('Iker Muniain', 31, 'Spain', 21),
+('Unai Simón', 27, 'Spain', 21);
 
 -- Atlético Madrid Players
-INSERT INTO players (name, age, nationality) VALUES
-('Antoine Griezmann', 33, 'France'),
-('João Félix', 25, 'Portugal'),
-('Jan Oblak', 31, 'Slovenia'),
-('Marcos Llorente', 29, 'Spain');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Antoine Griezmann', 33, 'France', 22),
+('João Félix', 25, 'Portugal', 22),
+('Jan Oblak', 31, 'Slovenia', 22),
+('Marcos Llorente', 29, 'Spain', 22);
 
 -- Barcelona Players
-INSERT INTO players (name, age, nationality) VALUES
-('Robert Lewandowski', 36, 'Poland'),
-('Pedri', 21, 'Spain'),
-('Gavi', 20, 'Spain'),
-('Marc-André ter Stegen', 32, 'Germany');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Robert Lewandowski', 36, 'Poland', 23),
+('Pedri', 21, 'Spain', 23),
+('Gavi', 20, 'Spain', 23),
+('Marc-André ter Stegen', 32, 'Germany', 23);
 
 -- Cádiz Players
-INSERT INTO players (name, age, nationality) VALUES
-('Álvaro Negredo', 38, 'Spain'),
-('Rubén Alcaraz', 33, 'Spain'),
-('Brian Ocampo', 25, 'Uruguay'),
-('Fali', 30, 'Spain');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Álvaro Negredo', 38, 'Spain', 24),
+('Rubén Alcaraz', 33, 'Spain', 24),
+('Brian Ocampo', 25, 'Uruguay', 24),
+('Fali', 30, 'Spain', 24);
 
 -- Celta Vigo Players
-INSERT INTO players (name, age, nationality) VALUES
-('Iago Aspas', 36, 'Spain'),
-('Gabri Veiga', 22, 'Spain'),
-('Renato Tapia', 29, 'Peru'),
-('Joseph Aidoo', 28, 'Ghana');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Iago Aspas', 36, 'Spain', 25),
+('Gabri Veiga', 22, 'Spain', 25),
+('Renato Tapia', 29, 'Peru', 25),
+('Joseph Aidoo', 28, 'Ghana', 25);
 
 -- Getafe Players
-INSERT INTO players (name, age, nationality) VALUES
-('Enes Ünal', 27, 'Turkey'),
-('Mason Greenwood', 23, 'England'),
-('Luis Milla', 29, 'Spain'),
-('Djené Dakonam', 32, 'Togo');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Enes Ünal', 27, 'Turkey', 26),
+('Mason Greenwood', 23, 'England', 26),
+('Luis Milla', 29, 'Spain', 26),
+('Djené Dakonam', 32, 'Togo', 26);
 
 -- Girona Players
-INSERT INTO players (name, age, nationality) VALUES
-('Cristhian Stuani', 37, 'Uruguay'),
-('Viktor Tsygankov', 26, 'Ukraine'),
-('Aleix García', 26, 'Spain'),
-('Juanpe', 33, 'Spain');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Cristhian Stuani', 37, 'Uruguay', 27),
+('Viktor Tsygankov', 26, 'Ukraine', 27),
+('Aleix García', 26, 'Spain', 27),
+('Juanpe', 33, 'Spain', 27);
 
 -- Granada Players
-INSERT INTO players (name, age, nationality) VALUES
-('José Callejón', 37, 'Spain'),
-('Myrto Uzuni', 29, 'Albania'),
-('Raúl Torrente', 23, 'Spain'),
-('Bryan Zaragoza', 22, 'Spain');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('José Callejón', 37, 'Spain', 28),
+('Myrto Uzuni', 29, 'Albania', 28),
+('Raúl Torrente', 23, 'Spain', 28),
+('Bryan Zaragoza', 22, 'Spain', 28);
 
 -- Las Palmas Players
-INSERT INTO players (name, age, nationality) VALUES
-('Jonathan Viera', 34, 'Spain'),
-('Marc Cardona', 28, 'Spain'),
-('Álvaro Lemos', 30, 'Spain'),
-('Kirian Rodríguez', 27, 'Spain');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Jonathan Viera', 34, 'Spain', 29),
+('Marc Cardona', 28, 'Spain', 29),
+('Álvaro Lemos', 30, 'Spain', 29),
+('Kirian Rodríguez', 27, 'Spain', 29);
 
 -- Mallorca Players
-INSERT INTO players (name, age, nationality) VALUES
-('Vedat Muriqi', 30, 'Kosovo'),
-('Kang-in Lee', 23, 'South Korea'),
-('Antonio Raíllo', 32, 'Spain'),
-('Pablo Maffeo', 27, 'Spain');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Vedat Muriqi', 30, 'Kosovo', 30),
+('Kang-in Lee', 23, 'South Korea', 30),
+('Antonio Raíllo', 32, 'Spain', 30),
+('Pablo Maffeo', 27, 'Spain', 30);
 
 -- Osasuna Players
-INSERT INTO players (name, age, nationality) VALUES
-('Chimy Ávila', 30, 'Argentina'),
-('David García', 30, 'Spain'),
-('Moi Gómez', 29, 'Spain'),
-('Sergio Herrera', 31, 'Spain');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Chimy Ávila', 30, 'Argentina', 31),
+('David García', 30, 'Spain', 31),
+('Moi Gómez', 29, 'Spain', 31),
+('Sergio Herrera', 31, 'Spain', 31);
 
 -- Rayo Vallecano Players
-INSERT INTO players (name, age, nationality) VALUES
-('Álvaro García', 31, 'Spain'),
-('Radamel Falcao', 38, 'Colombia'),
-('Isi Palazón', 29, 'Spain'),
-('Stole Dimitrievski', 30, 'North Macedonia');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Álvaro García', 31, 'Spain', 32),
+('Radamel Falcao', 38, 'Colombia', 32),
+('Isi Palazón', 29, 'Spain', 32),
+('Stole Dimitrievski', 30, 'North Macedonia', 32);
 
 -- Real Betis Players
-INSERT INTO players (name, age, nationality) VALUES
-('Nabil Fekir', 30, 'France'),
-('Borja Iglesias', 31, 'Spain'),
-('William Carvalho', 32, 'Portugal'),
-('Luiz Felipe', 27, 'Italy');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Nabil Fekir', 30, 'France', 33),
+('Borja Iglesias', 31, 'Spain', 33),
+('William Carvalho', 32, 'Portugal', 33),
+('Luiz Felipe', 27, 'Italy', 33);
 
 -- Real Madrid Players
-INSERT INTO players (name, age, nationality) VALUES
-('Vinícius Júnior', 23, 'Brazil'),
-('Jude Bellingham', 21, 'England'),
-('Luka Modrić', 38, 'Croatia'),
-('Thibaut Courtois', 32, 'Belgium');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Vinícius Júnior', 23, 'Brazil', 34),
+('Jude Bellingham', 21, 'England', 34),
+('Luka Modrić', 38, 'Croatia', 34),
+('Thibaut Courtois', 32, 'Belgium', 34);
 
 -- Real Sociedad Players
-INSERT INTO players (name, age, nationality) VALUES
-('Mikel Oyarzabal', 27, 'Spain'),
-('Alexander Sørloth', 28, 'Norway'),
-('David Silva', 38, 'Spain'),
-('Takefusa Kubo', 23, 'Japan');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Mikel Oyarzabal', 27, 'Spain', 35),
+('Alexander Sørloth', 28, 'Norway', 35),
+('David Silva', 38, 'Spain', 35),
+('Takefusa Kubo', 23, 'Japan', 35);
 
 -- Sevilla Players
-INSERT INTO players (name, age, nationality) VALUES
-('Youssef En-Nesyri', 27, 'Morocco'),
-('Ivan Rakitić', 36, 'Croatia'),
-('Jesús Navas', 38, 'Spain'),
-('Marcos Acuña', 32, 'Argentina');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Youssef En-Nesyri', 27, 'Morocco', 36),
+('Ivan Rakitić', 36, 'Croatia', 36),
+('Jesús Navas', 38, 'Spain', 36),
+('Marcos Acuña', 32, 'Argentina', 36);
 
 -- Valencia Players
-INSERT INTO players (name, age, nationality) VALUES
-('José Gayà', 29, 'Spain'),
-('Hugo Guillamón', 24, 'Spain'),
-('Justin Kluivert', 25, 'Netherlands'),
-('André Almeida', 24, 'Portugal');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('José Gayà', 29, 'Spain', 37),
+('Hugo Guillamón', 24, 'Spain', 37),
+('Justin Kluivert', 25, 'Netherlands', 37),
+('André Almeida', 24, 'Portugal', 37);
 
 -- Villarreal Players
-INSERT INTO players (name, age, nationality) VALUES
-('Gerard Moreno', 32, 'Spain'),
-('Yeremy Pino', 21, 'Spain'),
-('Pau Torres', 27, 'Spain'),
-('Giovani Lo Celso', 28, 'Argentina');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Gerard Moreno', 32, 'Spain', 38),
+('Yeremy Pino', 21, 'Spain', 38),
+('Pau Torres', 27, 'Spain', 38),
+('Giovani Lo Celso', 28, 'Argentina', 38);
 
 -- Atalanta Players
-INSERT INTO players (name, age, nationality) VALUES
-('Duván Zapata', 33, 'Colombia'),
-('Teun Koopmeiners', 26, 'Netherlands'),
-('Giorgio Scalvini', 20, 'Italy'),
-('Luis Muriel', 33, 'Colombia');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Duván Zapata', 33, 'Colombia', 39),
+('Teun Koopmeiners', 26, 'Netherlands', 39),
+('Giorgio Scalvini', 20, 'Italy', 39),
+('Luis Muriel', 33, 'Colombia', 39);
 
 -- Bologna Players
-INSERT INTO players (name, age, nationality) VALUES
-('Marko Arnautović', 35, 'Austria'),
-('Riccardo Orsolini', 27, 'Italy'),
-('Stefan Posch', 27, 'Austria'),
-('Jerdy Schouten', 27, 'Netherlands');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Marko Arnautović', 35, 'Austria', 40),
+('Riccardo Orsolini', 27, 'Italy', 40),
+('Stefan Posch', 27, 'Austria', 40),
+('Jerdy Schouten', 27, 'Netherlands', 40);
 
 -- Cagliari Players
-INSERT INTO players (name, age, nationality) VALUES
-('Leonardo Pavoletti', 35, 'Italy'),
-('Nahitan Nández', 29, 'Uruguay'),
-('Zito Luvumbo', 22, 'Angola'),
-('Boris Radunović', 28, 'Serbia');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Leonardo Pavoletti', 35, 'Italy', 41),
+('Nahitan Nández', 29, 'Uruguay', 41),
+('Zito Luvumbo', 22, 'Angola', 41),
+('Boris Radunović', 28, 'Serbia', 41);
 
 -- Empoli Players
-INSERT INTO players (name, age, nationality) VALUES
-('Tommaso Baldanzi', 20, 'Italy'),
-('Sam Lammers', 27, 'Netherlands'),
-('Sebastiano Luperto', 27, 'Italy'),
-('Guglielmo Vicario', 27, 'Italy');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Tommaso Baldanzi', 20, 'Italy', 42),
+('Sam Lammers', 27, 'Netherlands', 42),
+('Sebastiano Luperto', 27, 'Italy', 42),
+('Guglielmo Vicario', 27, 'Italy', 42);
 
 -- Fiorentina Players
-INSERT INTO players (name, age, nationality) VALUES
-('Nicolás González', 26, 'Argentina'),
-('Arthur Cabral', 25, 'Brazil'),
-('Sofyan Amrabat', 28, 'Morocco'),
-('Cristiano Biraghi', 31, 'Italy');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Nicolás González', 26, 'Argentina', 43),
+('Arthur Cabral', 25, 'Brazil', 43),
+('Sofyan Amrabat', 28, 'Morocco', 43),
+('Cristiano Biraghi', 31, 'Italy', 43);
 
 -- Frosinone Players
-INSERT INTO players (name, age, nationality) VALUES
-('Luca Mazzitelli', 28, 'Italy'),
-('Gianluca Frabotta', 25, 'Italy'),
-('Jaime Báez', 28, 'Uruguay'),
-('Francesco Gelli', 27, 'Italy');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Luca Mazzitelli', 28, 'Italy', 44),
+('Gianluca Frabotta', 25, 'Italy', 44),
+('Jaime Báez', 28, 'Uruguay', 44),
+('Francesco Gelli', 27, 'Italy', 44);
 
 -- Genoa Players
-INSERT INTO players (name, age, nationality) VALUES
-('Mattia Bani', 30, 'Italy'),
-('Albert Gudmundsson', 26, 'Iceland'),
-('Stefano Sturaro', 31, 'Italy'),
-('Kevin Strootman', 34, 'Netherlands');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Mattia Bani', 30, 'Italy', 45),
+('Albert Gudmundsson', 26, 'Iceland', 45),
+('Stefano Sturaro', 31, 'Italy', 45),
+('Kevin Strootman', 34, 'Netherlands', 45);
 
 -- Inter Milan Players
-INSERT INTO players (name, age, nationality) VALUES
-('Lautaro Martínez', 26, 'Argentina'),
-('Nicolò Barella', 27, 'Italy'),
-('André Onana', 28, 'Cameroon'),
-('Hakan Çalhanoğlu', 30, 'Turkey');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Lautaro Martínez', 26, 'Argentina', 46),
+('Nicolò Barella', 27, 'Italy', 46),
+('André Onana', 28, 'Cameroon', 46),
+('Hakan Çalhanoğlu', 30, 'Turkey', 46);
 
 -- Juventus Players
-INSERT INTO players (name, age, nationality) VALUES
-('Dušan Vlahović', 24, 'Serbia'),
-('Federico Chiesa', 27, 'Italy'),
-('Manuel Locatelli', 26, 'Italy'),
-('Wojciech Szczęsny', 34, 'Poland');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Dušan Vlahović', 24, 'Serbia', 47),
+('Federico Chiesa', 27, 'Italy', 47),
+('Manuel Locatelli', 26, 'Italy', 47),
+('Wojciech Szczęsny', 34, 'Poland', 47);
 
 -- Lazio Players
-INSERT INTO players (name, age, nationality) VALUES
-('Ciro Immobile', 34, 'Italy'),
-('Sergej Milinković-Savić', 29, 'Serbia'),
-('Luis Alberto', 31, 'Spain'),
-('Ivan Provedel', 30, 'Italy');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Ciro Immobile', 34, 'Italy', 48),
+('Sergej Milinković-Savić', 29, 'Serbia', 48),
+('Luis Alberto', 31, 'Spain', 48),
+('Ivan Provedel', 30, 'Italy', 48);
 
 -- Lecce Players
-INSERT INTO players (name, age, nationality) VALUES
-('Gabriel Strefezza', 26, 'Brazil'),
-('Assan Ceesay', 30, 'Gambia'),
-('Morten Hjulmand', 24, 'Denmark'),
-('Federico Baschirotto', 27, 'Italy');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Gabriel Strefezza', 26, 'Brazil', 49),
+('Assan Ceesay', 30, 'Gambia', 49),
+('Morten Hjulmand', 24, 'Denmark', 49),
+('Federico Baschirotto', 27, 'Italy', 49);
 
 -- Milan Players
-INSERT INTO players (name, age, nationality) VALUES
-('Rafael Leão', 25, 'Portugal'),
-('Theo Hernández', 26, 'France'),
-('Mike Maignan', 29, 'France'),
-('Olivier Giroud', 38, 'France');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Rafael Leão', 25, 'Portugal', 50),
+('Theo Hernández', 26, 'France', 50),
+('Mike Maignan', 29, 'France', 50),
+('Olivier Giroud', 38, 'France', 50);
 
 -- Monza Players
-INSERT INTO players (name, age, nationality) VALUES
-('Patrick Ciurria', 28, 'Italy'),
-('Matteo Pessina', 26, 'Italy'),
-('Gianluca Caprari', 30, 'Italy'),
-('Carlos Augusto', 25, 'Brazil');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Patrick Ciurria', 28, 'Italy', 51),
+('Matteo Pessina', 26, 'Italy', 51),
+('Gianluca Caprari', 30, 'Italy', 51),
+('Carlos Augusto', 25, 'Brazil', 51);
 
 -- Napoli Players
-INSERT INTO players (name, age, nationality) VALUES
-('Victor Osimhen', 25, 'Nigeria'),
-('Khvicha Kvaratskhelia', 23, 'Georgia'),
-('Giovanni Di Lorenzo', 31, 'Italy'),
-('Stanislav Lobotka', 29, 'Slovakia');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Victor Osimhen', 25, 'Nigeria', 52),
+('Khvicha Kvaratskhelia', 23, 'Georgia', 52),
+('Giovanni Di Lorenzo', 31, 'Italy', 52),
+('Stanislav Lobotka', 29, 'Slovakia', 52);
 
 -- Roma Players
-INSERT INTO players (name, age, nationality) VALUES
-('Paulo Dybala', 30, 'Argentina'),
-('Lorenzo Pellegrini', 28, 'Italy'),
-('Tammy Abraham', 27, 'England'),
-('Chris Smalling', 35, 'England');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Paulo Dybala', 30, 'Argentina', 53),
+('Lorenzo Pellegrini', 28, 'Italy', 53),
+('Tammy Abraham', 27, 'England', 53),
+('Chris Smalling', 35, 'England', 53);
 
 -- Salernitana Players
-INSERT INTO players (name, age, nationality) VALUES
-('Boulaye Dia', 28, 'Senegal'),
-('Antonio Candreva', 37, 'Italy'),
-('Grigoris Kastanos', 26, 'Cyprus'),
-('Norbert Gyömbér', 31, 'Slovakia');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Boulaye Dia', 28, 'Senegal', 54),
+('Antonio Candreva', 37, 'Italy', 54),
+('Grigoris Kastanos', 26, 'Cyprus', 54),
+('Norbert Gyömbér', 31, 'Slovakia', 54);
 
 -- Sassuolo Players
-INSERT INTO players (name, age, nationality) VALUES
-('Domenico Berardi', 30, 'Italy'),
-('Davide Frattesi', 25, 'Italy'),
-('Maxime López', 26, 'France'),
-('Andrea Consigli', 37, 'Italy');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Domenico Berardi', 30, 'Italy', 55),
+('Davide Frattesi', 25, 'Italy', 55),
+('Maxime López', 26, 'France', 55),
+('Andrea Consigli', 37, 'Italy', 55);
 
 -- Torino Players
-INSERT INTO players (name, age, nationality) VALUES
-('Antonio Sanabria', 28, 'Paraguay'),
-('Perr Schuurs', 24, 'Netherlands'),
-('Nemanja Radonjić', 28, 'Serbia'),
-('Vanja Milinković-Savić', 27, 'Serbia');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Antonio Sanabria', 28, 'Paraguay', 56),
+('Perr Schuurs', 24, 'Netherlands', 56),
+('Nemanja Radonjić', 28, 'Serbia', 56),
+('Vanja Milinković-Savić', 27, 'Serbia', 56);
 
 -- Udinese Players
-INSERT INTO players (name, age, nationality) VALUES
-('Gerard Deulofeu', 30, 'Spain'),
-('Beto', 26, 'Portugal'),
-('Walace', 29, 'Brazil'),
-('Jaka Bijol', 25, 'Slovenia');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Gerard Deulofeu', 30, 'Spain', 57),
+('Beto', 26, 'Portugal', 57),
+('Walace', 29, 'Brazil', 57),
+('Jaka Bijol', 25, 'Slovenia', 57);
 
 -- Verona Players
-INSERT INTO players (name, age, nationality) VALUES
-('Darko Lazović', 33, 'Serbia'),
-('Kevin Lasagna', 31, 'Italy'),
-('Adrien Tameze', 29, 'Cameroon'),
-('Pawel Dawidowicz', 29, 'Poland');
+INSERT INTO players (name, age, nationality, club_id) VALUES
+('Darko Lazović', 33, 'Serbia', 58),
+('Kevin Lasagna', 31, 'Italy', 58),
+('Adrien Tameze', 29, 'Cameroon', 58),
+('Pawel Dawidowicz', 29, 'Poland', 58);
