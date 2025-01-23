@@ -28,4 +28,13 @@ func SetupRoutes(router *gin.Engine) {
 		clubRoutes.DELETE("/:id", controllers.DeleteClubById)
 	}
 
+	championshipRoutes := router.Group("/championships")
+	{
+		championshipRoutes.GET("/", controllers.GetChampionships)
+		championshipRoutes.GET("/:id", controllers.GetChampionshipById)
+		championshipRoutes.POST("/", controllers.CreateChampionship)
+		championshipRoutes.PATCH("/:id", controllers.UpdateChampionshipById)
+		championshipRoutes.DELETE("/:id", controllers.DeleteChampionshipById)
+	}
+
 }
