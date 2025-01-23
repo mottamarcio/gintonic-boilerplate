@@ -57,14 +57,14 @@ GinTonic Boilerplate is a lightweight yet powerful backend solution built with G
 
 ```plaintext
 Directory structure:
-└── git gintonic-boilerplate/
+└── mottamarcio-gintonic-boilerplate/
     ├── README.md
     ├── LICENSE
     ├── docker-compose.yml
     ├── go.mod
     ├── go.sum
-    ├── main.go
     └── src/
+        ├── main.go
         ├── config/
         │   ├── database.go
         │   └── init.sql
@@ -78,7 +78,6 @@ Directory structure:
         │   └── routes.go
         └── services/
             └── player_service.go
-
 ```
 
 ## Documentation
