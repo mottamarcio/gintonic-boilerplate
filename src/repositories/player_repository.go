@@ -1,12 +1,8 @@
 package repositories
 
 import (
-	"github.com/mottamarcio/gintonic-boilerplate/src/config"
 	"github.com/mottamarcio/gintonic-boilerplate/src/models"
-	"gorm.io/gorm"
 )
-
-var db *gorm.DB = config.ConnectDatabase()
 
 func GetPlayers() ([]models.Player, error) {
 	var players []models.Player

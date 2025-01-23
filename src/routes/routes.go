@@ -19,4 +19,13 @@ func SetupRoutes(router *gin.Engine) {
 		playerRoutes.DELETE("/:id", controllers.DeletePlayerById)
 	}
 
+	clubRoutes := router.Group("/clubs")
+	{
+		clubRoutes.GET("/", controllers.GetClubs)
+		clubRoutes.GET("/:id", controllers.GetClubById)
+		clubRoutes.POST("/", controllers.CreateClub)
+		clubRoutes.PATCH("/:id", controllers.UpdateClubById)
+		clubRoutes.DELETE("/:id", controllers.DeleteClubById)
+	}
+
 }
